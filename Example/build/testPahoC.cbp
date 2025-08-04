@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="testPahoC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\home\;CMake Files\..\..\..\..\..\..\home\builder\;CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\;CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\;CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\;CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\;CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\cmake\;CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\cmake\PahoMqttCpp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testPahoC">
+				<Option output="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build/testPahoC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/builder/mqttLibTest/paho.mqtt.cpp/installLib/include"/>
+					<Add directory="/home/builder/rv1106_build/buildroot/buildroot-2024.02.2/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include/c++/8.3.0"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include/c++/8.3.0/arm-rockchip830-linux-uclibcgnueabihf"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include/c++/8.3.0/backward"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include-fixed"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 testPahoC"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testPahoC/fast">
+				<Option output="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build/testPahoC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/builder/mqttLibTest/paho.mqtt.cpp/installLib/include"/>
+					<Add directory="/home/builder/rv1106_build/buildroot/buildroot-2024.02.2/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include/c++/8.3.0"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include/c++/8.3.0/arm-rockchip830-linux-uclibcgnueabihf"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include/c++/8.3.0/backward"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include-fixed"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/include"/>
+					<Add directory="/home/builder/rv1106_build/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 testPahoC/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/VP_start_doc/RnD/Cross\ compile\ Paho\ Mqtt/Example/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/main.cpp">
+			<Option target="testPahoC"/>
+		</Unit>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/toolchain.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/../../../../../../home/builder/mqttLibTest/paho.mqtt.cpp/installLib/lib/cmake/PahoMqttCpp/PahoMqttCppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\cmake\PahoMqttCpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/../../../../../../home/builder/mqttLibTest/paho.mqtt.cpp/installLib/lib/cmake/PahoMqttCpp/PahoMqttCppConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\cmake\PahoMqttCpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/../../../../../../home/builder/mqttLibTest/paho.mqtt.cpp/installLib/lib/cmake/PahoMqttCpp/PahoMqttCppTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\cmake\PahoMqttCpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/../../../../../../home/builder/mqttLibTest/paho.mqtt.cpp/installLib/lib/cmake/PahoMqttCpp/PahoMqttCppTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\home\builder\mqttLibTest\paho.mqtt.cpp\installLib\lib\cmake\PahoMqttCpp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

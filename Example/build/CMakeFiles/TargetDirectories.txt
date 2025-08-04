@@ -1,0 +1,3 @@
+/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build/CMakeFiles/testPahoC.dir
+/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build/CMakeFiles/edit_cache.dir
+/mnt/d/VP_start_doc/RnD/Cross compile Paho Mqtt/Example/build/CMakeFiles/rebuild_cache.dir
